@@ -372,3 +372,13 @@ input {
 .carousel-caption:not(#caption-0) {
   display: none;
 }
+
+#header.dark,
+.dark #header-wrap {
+  background-image: linear-gradient(
+    to right,
+    rgb(84, 92, 198),
+    rgb(211, 155, 250)
+  );
+  background-color: transparent;
+}

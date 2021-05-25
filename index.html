@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,900&amp;display=swap"
+		rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+
+	<!-- Landing Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/landing/landing.css" type="text/css" />
+	<link rel="stylesheet" href="demos/landing/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/timeline.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors464a.css?color=3D80E4" type="text/css" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>BotMyChat Landing Page</title>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header full-header dark no-sticky" data-responsive-class="not-dark">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row" style="padding: 20px;">
+
+						<!-- Logo
+						============================================= -->
+						<div class="border-right-0">
+							<a href="#"><img src="images/logo@2x.png" alt="BotMyChat Logo"
+									style="height: 48px !important;" class="logo-img"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100">
+								<path
+									d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
+								</path>
+								<path d="m 30,50 h 40"></path>
+								<path
+									d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
+								</path>
+							</svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu not-dark with-arrows">
+
+
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-element dark min-vh-100 include-header" style="background-image: linear-gradient(
+			to right,
+			rgb(84, 92, 198),
+			rgb(211, 155, 250)
+		  );">
+			<div class="slider-inner flex-column">
+				<div class="vertical-middle">
+					<div class="container">
+						<div class="row align-items-lg-center no-gutters">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-white">
+								<div class="mb-5">
+									<h1 class="mb-3 animated fadeInUp delay-1s" style="font-size: 2.5rem">
+										Atiende a tus clientes 24x7
+									</h1>
+									<p class="animated fadeInUp delay-2s" style="font-size: 1.25rem;">
+										Crea y personaliza tu chatbot sin necesidad de conocimientos en
+										programación
+									</p>
+								</div>
+								<div class="animated fadeInUp delay-3s">
+									<form id="form">
+										<label for="subscribe-form" class="text-uppercase">Obtén un mes gratis de
+											nuestra versión Premium al subscribirte</label>
+										<div class="input-wrap">
+											<input type="email" class="form-control bmc-form-control"
+												id="subscribe-form-email" aria-describedby="subscribe-form"
+												placeholder="Tu correo electrónico" name="email"
+												style="background-color: #fff;" />
+											<span id="validation"></span>
+											<div class="input-group-append">
+												<button class="btn btn-outline-secondary bmc-button" type="button"
+													id="subscribe-button">
+													Subscríbete
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-1 d-md-none d-lg-block"></div>
+
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 offset-lg-2 preview-section">
+								<div class="animated fadeIn delay-2s">
+									<div>
+										<div class="slide-imgs">
+											<video preload="auto" loop autoplay muted class="header-video">
+												<source src='./images/videos/connect.webm' type='video/mp4' />
+											</video>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap pb-0">
+
+				<div class="container">
+					<div class="mx-auto center mt-4 bottommargin heading-block" style="max-width: 640px;">
+						<h5 class="text-uppercase ls1 text-muted mb-3">Aumenta tus ventas y atiende a todos tus clientes
+							en tiempo real</h5>
+						<h3 class="nott mb-4">Responde en segundos y potencia tus ventas online</h3>
+						<!-- <p class="lead font-weight-normal font-primary mb-5">Dynamically underwhelm end-to-end experiences for premier methodologies. Objectively benchmark front-end bandwidth vis-a-vis flexible e-services. Globally drive business convergence without backward-compatible markets.</p> -->
+					</div>
+
+					<div class="features-items mx-auto" style="max-width: 1000px;">
+						<div class="row justify-content-around">
+							<div class="col-md-4 bottommargin-lg">
+								<div class="feature-box media-box">
+									<img src="./images/icons/messenger-icon.png" class="bottommargin-sm"
+										style="max-width: 256px; height: 128px;" />
+									<div class="fbox-content">
+										<h3 class="h4 font-weight-bold mb-2">Empieza a vender desde Messenger</h3>
+										<!-- <div class="lead font-weight-normal text-black-50"></div> -->
+										<p class="text-black-50">Enlaza tus cuentas y
+											empieza
+											a vender como nunca.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 bottommargin-lg">
+								<div class="feature-box media-box">
+									<img src="./images/icons/programador.png" class="bottommargin-sm"
+										style="max-width: 128px; height: 128px; margin-left: 10px;" />
+									<div class="fbox-content">
+										<h3 class="h4 font-weight-bold mb-2">No necesitas saber programar</h3>
+										<p class="text-black-50">Crea y personaliza tu chatbot
+											rápidamente.</p>
+										<!-- <div class="lead font-weight-normal text-black-50"></div> -->
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 bottommargin-lg">
+								<div class="feature-box media-box">
+									<img src="./images/icons/open-icon-color.png" class="bottommargin-sm"
+										style="max-width: 180px; height: 128px; margin-left: 10px;" />
+									<div class="fbox-content">
+										<h3 class="h4 font-weight-bold mb-2">Incrementa tu ratio de conversión y atiende
+											24x7</h3>
+
+										<p class="text-black-50">No dejes pasar ninguna
+											oportunidad de venta.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-around">
+							<!-- <button class="btn btn-outline-secondary bmc-button" type="button" id="subscribe-button">
+								Subscríbete
+							</button> -->
+							<a href="#" class="btn btn-lg btn-dark" style="z-index: 10;">Subscríbete</a>
+						</div>
+					</div>
+				</div>
+				<div class=" clear">
+				</div>
+
+				<div class="section m-0 bg-transparent pb-0" style="padding-top: 100px;">
+					<div class="container clearfix">
+						<div class="row">
+
+
+							<div class="col-lg-5 d-flex align-items-end">
+								<!-- <div class="device-video-wrap">
+									<img src="demos/landing/images/iphone-hand.png" alt="Image">
+									<video poster="images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
+										<source src='demos/landing/images/form-video.mp4' type='video/mp4' />
+									</video>
+								</div> -->
+								<div class="device-video-wrap">
+									<img src="./images/mockup-1.png" class="mockup-image-1" alt="Image">
+								</div>
+							</div>
+
+							<div class="col-lg-1"></div>
+
+							<div class="col-lg-6 mb-5">
+								<h2 class="font-weight-bold h2 mb-4"><span>Personaliza</span> y
+									<span>automatiza</span>
+									tus conversaciones; llevamos tu negocio a otro nivel.
+								</h2>
+								<!-- <p class="font-weight-normal mb-2 h6 text-muted">Enthusiastically morph unique
+									web-readiness via impactful platforms. Intrinsicly matrix premium expertise for
+									diverse expertise. Intrinsicly drive collaborative bandwidth for accurate testing.
+								</p> -->
+
+								<div class="row my-5">
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-magic-wand text-primary"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>No se requiere programación</h3>
+												<p>Diseña tu propio chatbot en tan solo cinco pasos y sin
+													necesidad de
+													conocer de programación.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-rocket text-warning"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Crea, comparte y obtén resultados</h3>
+												<p>Da a conocer tus productos y has
+													que las conversaciones cobren vida diseñando tu propio
+													<b>chatbot</b> o utilizando una de <b>nuestras
+														plantillas</b>.
+												</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-equalizer text-danger"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Todo en un solo lugar</h3>
+												<p>Integra a la perfección todas tus
+													<b>fanpage</b>, responde y controla tus conversaciones desde
+													una
+													sola
+													plataforma.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section m-0" style="padding: 100px 0; background-image: linear-gradient(
+					to left,
+					rgb(84, 92, 198),
+					rgb(211, 155, 250)
+				  );">
+
+					<div class="container clearfix">
+
+						<div class="heading-block mx-auto center" style="max-width: 600px">
+							<h5 class="text-uppercase ls1 mb-2 text-white-50">Cómo funciona</h5>
+							<h3 class="nott mb-3 text-white">Crea tu chatbot y atiende mejor a tus clientes en tan solo
+								cinco pasos
+							</h3>
+						</div>
+
+					</div>
+
+					<div class="container">
+
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="timeline">
+									<div class="timeline-container left">
+										<div class="timeline-content">
+											<div>
+												<img src="./images/icons/account-icon.png" alt="sign-up"
+													class="timeline-image">
+											</div>
+											<h4 class="timeline-title">
+												Descarga la app y regístrate
+											</h4>
+											<p class="timeline-description">
+												Crear una cuenta gratuita en la aplicación en cuestión de minutos para
+												empezar a crear tu primer robot
+											</p>
+										</div>
+									</div>
+									<div class="timeline-container right">
+										<div class="timeline-content">
+											<div>
+												<img src="./images/icons/template-icon.png" alt="sign-up"
+													class="timeline-image"
+													style="max-height: 150px; margin: 0px auto; display: flex;">
+											</div>
+											<h4 class="timeline-title">
+												Elige la plantilla que mejor se adapte a tu negocio
+											</h4>
+											<p class="timeline-description">
+												¡Lanza un bot para generación de leads, registro de eventos, pedidos de
+												comida o cualquier otro caso de uso en minutos!
+											</p>
+										</div>
+									</div>
+									<div class="timeline-container left">
+										<div class="timeline-content">
+											<div>
+												<img src="./images/icons/path-icon.png" alt="sign-up"
+													class="timeline-image"
+													style="max-height: 150px; margin: 0px auto; display: flex;">
+											</div>
+											<h4 class="timeline-title">
+												Personaliza tu flujo de respuestas
+											</h4>
+											<p class="timeline-description">
+												Personalizar las respuestas de su bot para ayudar a sus clientes tengan
+												una experiencia más personalizada
+											</p>
+										</div>
+									</div>
+									<div class="timeline-container right">
+										<div class="timeline-content">
+											<div>
+												<img src="./images/icons/messenger-icon.png" alt="sign-up"
+													class="timeline-image"
+													style="max-height: 150px; margin: 0px auto; display: flex;">
+											</div>
+											<h4 class="timeline-title">
+												Conecta el chatbot a tu fanpage
+											</h4>
+											<p class="timeline-description">
+												Conecte el bot a su cuenta de Facebook o WhatsApp para que sus clientes
+												puedan interactuar con él.
+											</p>
+										</div>
+									</div>
+									<div class="timeline-container left">
+										<div class="timeline-content">
+											<div>
+												<img src="./images/icons/open-icon-color.png" alt="sign-up"
+													class="timeline-image"
+													style="max-height: 150px; margin: 0px auto; display: flex;">
+											</div>
+											<h4 class="timeline-title">
+												¡Listo, empieza a vender como nunca!
+											</h4>
+											<p class="timeline-description">
+												¡Ahora que está todo listo, comience a aplastar sus metas!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 d-flex flex-column text-center">
+								<video preload="auto" loop autoplay muted class="iphone-img sticky-top"
+									style="width: 110%;">
+									<source src='./images/videos/steps.webm' type='video/mp4' />
+								</video>
+								<div class="row justify-content-around mt-5">
+									<a href="#" class="btn btn-lg btn-dark" style="z-index: 10;">Subscríbete</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container topmargin">
+					<div class="heading-block center mx-auto" style="max-width: 700px">
+						<h3 class="mb-2 nott ls0">Elige la plantilla que mejor se
+							adapte a tu
+							negocio y personaliza la experiencia de tus clientes
+						</h3>
+						<span>BoyChat ofrece ajustes preestablecidos para ayudar a comenzar a construir un súper
+							bot de
+							chat diseñado para adaptarse a su negocio.</span>
+					</div>
+					<div class="clear"></div>
+					<div class="row col-mb-50 mt-3">
+
+						<div class="col-lg-4 center order-lg-last d-flex align-items-end">
+							<div class="device-video-wrap">
+								<img src="demos/landing/images/iphone-hand.png" alt="Image">
+								<img src="./images/templates.png" class="mockup-image-template" alt="">
+							</div>
+						</div>
+
+						<div class="col-lg-8 row">
+							<div class="col-lg-12 row">
+								<div class="col-lg-6 col-md-6 pb-0">
+
+									<div class="feature-box fbox-plain bottommargin">
+										<div class="fbox-icon">
+											<img src="./images/icons/las-compras-en-linea.png" alt="Cleaner Icon">
+										</div>
+										<div class="fbox-content">
+											<h3 class="nott font-weight-semibold ls0">Venta y recomendación de
+												productos
+											</h3>
+											<p>Dé a sus clientes mejores recomendaciones de productos.</p>
+										</div>
+									</div>
+
+									<div class="feature-box fbox-plain bottommargin">
+										<div class="fbox-icon">
+											<img src="./images/icons/food-and-drink.png" alt="Cleaner Icon">
+										</div>
+										<div class="fbox-content">
+											<h3 class="nott font-weight-semibold ls0">Toma de pedidos
+												Restaurantes</h3>
+											<p>Cree un bot que permita a sus clientes realizar pedidos o hacer
+												reservas
+												en
+												su
+												restaurante.</p>
+										</div>
+									</div>
+
+									<div class="feature-box fbox-plain bottommargin">
+										<div class="fbox-icon">
+											<img src="./images/icons/claim.png" alt="Cleaner Icon">
+										</div>
+										<div class="fbox-content">
+											<h3 class="nott font-weight-semibold ls0">Atención de quejas y
+												reclamos</h3>
+											<p>Haz que tu bot reciba quejas y consultas de tus clientes incluso
+												cuando
+												no
+												estás.
+											</p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-lg-6 col-md-6">
+
+									<div class="feature-box fbox-plain bottommargin">
+										<div class="fbox-icon">
+											<img src="./images/icons/communicate.png" alt="Cleaner Icon">
+										</div>
+										<div class="fbox-content">
+											<h3 class="nott font-weight-semibold ls0">Contáctanos</h3>
+											<p>Cree un bot que reciba comentarios de sus clientes para una mejor
+												experiencia
+												del
+												cliente.</p>
+										</div>
+									</div>
+
+									<div class="feature-box fbox-plain ">
+										<div class="fbox-icon">
+											<img src="./images/icons/entradas-de-cine.png" alt="Cleaner Icon">
+										</div>
+										<div class="fbox-content">
+											<h3 class="nott font-weight-semibold ls0">Registro a eventos y venta
+												de
+												entradas
+											</h3>
+											<p>Cree un bot que ayude a sus clientes a reservar entradas para sus
+												eventos.
+											</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-6"
+								style="margin: 30px auto; display: flex; align-items: center; justify-content: center; z-index: 10;">
+								<a href="#" class="btn btn-lg btn-dark">Subscríbete</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="section m-0 bg-color dotted-bg"
+					style="background-image: linear-gradient(to bottom, rgb(84, 92, 198) 0%, rgb(211, 155, 250) 50%, #fff 50%); padding-bottom: 15px;">
+					<!-- <div class="section m-0 bg-color dotted-bg"
+					style="background-image: linear-gradient(to bottom, #3D80E4 0%, #0a4bab 50%, #FFF 50%);"> -->
+
+					<div class="container clearfix">
+						<div class="row mx-auto justify-content-center shadow-lg py-5 my-5 text-center rounded-lg bg-white"
+							style="max-width: 940px; ">
+							<div class="col-md-8">
+								<div class="card border-0 bg-transparent">
+									<div class="card-body">
+										<h3 class="display-4 font-weight-bold"
+											style="font-size: 2.5rem !important; margin-bottom: 10px;">
+											No pierdas
+											esta oportunidad, hacemos
+											crecer tu negocio</h3>
+										<p class="text-black-50" style="font-size: 1.25rem;">Crea tu chatbot y
+											atiende a
+											tus clientes 24x7.</p>
+										<a href="#" class="btn btn-lg btn-dark">Subscríbete</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="m-0 dotted-bg bg-transparent">
+					<!-- <div class="section m-0 bg-color dotted-bg"
+					style="background-image: linear-gradient(to bottom, #3D80E4 0%, #0a4bab 50%, #FFF 50%);"> -->
+
+					<div class="container clearfix">
+						<div class="row mx-auto justify-content-center py-5 text-center bg-white"
+							style="max-width: 940px; ">
+							<div class="col-md-4">
+								<a href="#">
+									<div class="fbox-icon footer-item">
+										<i class="icon-phone bg-transparent text-dark"></i>
+									</div>
+									<p class="text-black-50">+3 123 456 7890</p>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a id="contact-trigger">
+									<div class="fbox-icon footer-item">
+										<i class="icon-line2-envelope bg-transparent text-dark"></i>
+									</div>
+									<p class="text-black-50" style="margin-bottom: 10px;">xxxxxxxx@botmychat.io
+									</p>
+								</a>
+								<p class="text-black">Haz clic en el email para contactárnos!</p>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+									<div class="fbox-icon footer-item">
+										<i class="icon-map-marker1 bg-transparent text-dark"></i>
+									</div>
+									<p class="text-black-50">Servicios a nivel mundial</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section m-0 bg-color"
+					style="padding: 30px 0; background-image: linear-gradient(to bottom, rgb(84, 92, 198) 0%, rgb(211, 155, 250) 80%, #fff 80%);"
+					id="contact-form">
+
+					<div class="container clearfix">
+						<div class="row mx-auto dotted-bg" style="max-width: 740px">
+							<div class="col-md-12">
+								<div class="center dark mb-5">
+									<i class="icon-line-help h1 "></i>
+									<h2 class="font-weight-bold mb-2">Ponerse en contacto</h2>
+									<p class="font-weight-normal mb-2 lead">Siempre estamos felices de saber de ti.</p>
+								</div>
+
+								<div class="card bg-white shadow-lg border-0">
+									<div class="card-body p-5">
+										<div class="form-widget" data-loader="button" data-alert-type="inline">
+
+											<div class="form-result"></div>
+
+											<form class="row mb-0" id="landing-enquiry" action="#" method="post"
+												enctype="multipart/form-data">
+												<div class="form-process"></div>
+												<div class="col-12 form-group mb-4">
+													<label>Email:</label>
+													<input type="email" name="landing-enquiry-email"
+														id="landing-enquiry-email"
+														class="form-control form-control-lg required" value=""
+														placeholder="user@company.com">
+												</div>
+												<div class="col-12 form-group mb-4">
+													<label>Nombre:</label><br>
+													<div class="input-group input-group-lg">
+														<select class="custom-select required"
+															name="landing-enquiry-idd" id="landing-enquiry-idd"
+															style="max-width: 80px;">
+															<option value="+3">+3</option>
+															<option value="+1">+1</option>
+															<option value="+44">+44</option>
+															<option value="+66">+66</option>
+															<option value="+62">+62</option>
+															<option value="+61">+61</option>
+															<option value="+852">+852</option>
+															<option value="+65">+61</option>
+															<option value="+33">+61</option>
+															<option value="+49">+49</option>
+														</select>
+														<input type="text" name="landing-enquiry-phone"
+															id="landing-enquiry-phone"
+															class="form-control form-control-lg required" value=""
+															placeholder="02-232-2424">
+													</div>
+												</div>
+												<div class="col-12 form-group mb-4">
+													<label>Mensaje:</label>
+													<textarea name="landing-enquiry-additional-requirements"
+														id="landing-enquiry-additional-requirements"
+														class="form-control form-control-lg" cols="30" rows="5"
+														placeholder="Por favor, déjanos saber como podemos ayudarte..."></textarea>
+												</div>
+												<div class="col-12 d-none">
+													<input type="text" id="landing-enquiry-botcheck"
+														name="landing-enquiry-botcheck" value="" />
+												</div>
+												<div class="col-12">
+													<button type="submit" name="landing-enquiry-submit"
+														class="btn btn-block text-white bg-color rounded-lg py-3 font-weight-semibold text-uppercase mt-2">Enviar</button>
+												</div>
+
+												<input type="hidden" name="prefix" value="landing-enquiry-">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="bg-white border-0">
+			<div id="copyrights" class="bg-color dark py-5">
+				<div class="container">
+					<div class="row col-mb-30">
+						<div class="col-md-6 text-center text-md-left">
+							&copy; <span id="year"></span> BotMyChat All Rights Reserved<br>
+							<!-- <div class="copyright-links"><a href="#" class="text-white-50">Terms of Use</a> / <a
+									href="#" class="text-white-50">Privacy Policy</a></div> -->
+						</div>
+
+						<div class="col-md-6 text-center text-md-right"
+							style="display: flex; justify-content: flex-end">
+							<a href="https://web.facebook.com/botmychat.io"
+								class="social-icon si-small si-colored si-facebook" title="Facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+							<a href="https://www.instagram.com/botmychat/"
+								class="social-icon si-small si-colored si-instagram" title="Instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery(window).on('pluginCarouselReady', function () {
+			setTimeout(function () {
+				$('.owl-stage').after('<div class="owl-stage-outer-bg"></div>');
+			}, 1000);
+		});
+	</script>
+
+	<script type="text/javascript">
+		var date = new Date();
+		var year = date.getFullYear();
+		document.getElementById("year").innerHTML = year;
+	</script>
+
+	<script src="./script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

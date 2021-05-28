@@ -382,3 +382,141 @@ input {
   );
   background-color: transparent;
 }
+
+.features-items .feature-box {
+  margin-top: 0;
+  background: #fff;
+  box-shadow: 3px 0px 60px rgb(0 0 0 / 9%);
+  padding: 23px;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.features-items .fbox-content > h3,
+.features-items .fbox-content > p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.features-items .feature-box > img {
+  margin-bottom: 1.5rem !important;
+}
+
+.benefits-fbox p {
+  color: #5d5d5d;
+}
+
+/*========================
+    08. HOW IT WORK
+===============================*/
+.work-process-wrap {
+  display: block;
+  width: 100%;
+}
+.single-work-process {
+  position: relative;
+  float: left;
+  margin: 0 15px;
+  width: calc(20% - 30px);
+}
+
+.work-process-icon-wrap {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+}
+@media screen and (max-width: 991px) {
+  .single-work-process {
+    width: calc(50% - 30px);
+  }
+  .work-process-divider {
+    width: calc(100% - 145px);
+  }
+  .single-work-process:nth-child(2n) .work-process-divider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .single-work-process {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .work-process-divider {
+    display: none;
+  }
+}
+
+.work-process-divider {
+  background-image: linear-gradient(
+    90deg,
+    #73778c,
+    #73778c 40%,
+    transparent 40%,
+    transparent 100%
+  );
+}
+
+.single-work-process .work-process-divider {
+  position: absolute;
+  top: 40px;
+  width: calc(100% - 130px);
+  height: 1px;
+  background-image: linear-gradient(
+    90deg,
+    #ffffff,
+    #ffffff 40%,
+    transparent 40%,
+    transparent 100%
+  );
+  background-size: 12px 1px;
+}
+.single-work-process .work-process-divider:after {
+  content: '\e613';
+  font-family: 'font-icons';
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+}
+
+.work-process-icon-wrap i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.work-process-icon-wrap .process-step {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #fff;
+}
+
+.single-work-process:last-child .work-process-divider {
+  display: none !important;
+}
+
+.single-work-process h5,
+.single-work-process p {
+  color: #fff;
+}

@@ -94,7 +94,8 @@
   position: relative;
   margin: 0 auto;
   margin-top: -100px;
-  max-width: 800px;
+  max-width: 700px;
+  margin-left: -100px;
 }
 
 .mockup-image-template {
@@ -519,4 +520,40 @@ input {
 .single-work-process h5,
 .single-work-process p {
   color: #fff;
+}
+
+.step-image-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.step-title-wrap {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.step-title {
+  color: white;
+  margin-left: 10px;
+  flex: 1;
 }

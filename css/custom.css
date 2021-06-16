@@ -294,6 +294,14 @@ input {
 }
 
 @media screen and (max-width: 767px) {
+  .device-video-wrap img.mockup-image-1 {
+    max-width: 500px;
+    margin-left: -50px;
+  }
+  .subscribe-card-col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .device-wrapper {
     position: relative;
     top: 100px;
